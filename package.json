@@ -1,0 +1,19 @@
+{
+  "name": "dianagloster",
+  "version": "1.0.0",
+  "description": "DIana Gloster WEBSITE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loonz777/Diana.git"
+  },
+  "author": "M Kravalis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loonz777/Diana/issues"
+  },
+  "homepage": "https://github.com/loonz777/Diana#readme"
+}
