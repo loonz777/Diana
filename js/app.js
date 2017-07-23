@@ -9,12 +9,21 @@ angular.module('DianaWeb').config(function($locationProvider, $routeProvider) {
     })
   		.when('/aboutMe', {
 			templateUrl:'templates/aboutme.html',
-		})
+	})
 		.when('/photos', {
 			templateUrl:'templates/photos.html',
-		})
+	})
+		.when('/login', {
+			templateUrl: 'templates/login.html',
+	})
+		.when('/buy', {
+			templateUrl: 'templates/buy.html'
+	})
+		.when('/video', {
+			templateUrl: 'templates/videos.html'
+	})
 		.when('/register', {
 			templateUrl:'templates/register.html',
 			controller: 'RegisterController'
-		});
 	});
+});
