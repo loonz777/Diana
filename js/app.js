@@ -7,7 +7,7 @@ angular.module('DianaWeb').config(function($locationProvider, $routeProvider) {
         templateUrl: 'templates/home.html',
         controller: 'HomeController'
     })
-  		.when('/aboutMe', {
+  		.when('/aboutme', {
 			templateUrl:'templates/aboutme.html',
 	})
 		.when('/photos', {
@@ -19,6 +19,9 @@ angular.module('DianaWeb').config(function($locationProvider, $routeProvider) {
 		.when('/buy', {
 			templateUrl: 'templates/buy.html'
 	})
+		.when('/free',{
+			templateUrl: 'templates/free.html'
+		})
 		.when('/video', {
 			templateUrl: 'templates/videos.html'
 	})

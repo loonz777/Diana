@@ -1,8 +1,30 @@
 body{
 	padding-top: 80px;
-	background-image: url('../pics/background2.jpg');
+	font-family: 'Dosis', sans-serif;
 }
 
+.content:before {
+	content: "";
+	position: fixed;
+	top: 50px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	display: block;
+	background-image: url('../pics/background2.jpg');
+	background-size:cover;
+	width: 100%;
+	height: 100%;
+}
+
+.content {
+	overflow: auto;
+	overflow-y:hidden;
+	position: relative;
+}
+
+/*navbar color*/
 .navbar-default {
   background-color: #fa2371;
   border-color: #fe8cb8;
@@ -129,4 +151,24 @@ column-count: 1;
   height: 100%;
 }
 
-/*scrollbar*/
+/*about artist*/
+
+#aboutme{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 50px;
+	font-size: 150%;
+}
+
+/*free downloads*/
+.panel{
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.panel-heading{
+	font-style: bold;
+	font-size: 200%;
+}
+.free{
+	font-size: 150%;
+}
